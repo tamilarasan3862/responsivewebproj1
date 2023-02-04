@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+      <script src="https://kit.fontawesome.com/d492bf8a9a.js" crossorigin="anonymous"></script>
+  </head>
+  <style type="text/css">
+    *{
+      margin: 0;
+      border: 0;
+    }
+    .navbar{
+      background-color:#FC4F74;
+      border: none;
+    }
+    .navbar-brand i{
+      color: white;
+      padding-left: 10px;
+    }
+    .navbar-brand span{
+      color: white;
+      font-size: 10px;
+    }
+   #nav-items li a {
+      padding-right: 40px;
+      color: white;
+    }
+    #nav-items li a:hover {
+      text-shadow: 1px 1px 2px whitesmoke ;
+    } 
+  #container-fluid1{
+      background: linear-gradient(to bottom,#FC4F74,#D4552F);
+      height: 700px;
+      min-width: 482px;
+    }
+  #page1row{
+      margin-top: 190px;
+      line-height: 25px;
+    }
+  #col1{
+     padding-top: 60px;
+     color: white;
+     height: 300px;
+   }
+   #page1btn{
+    margin-left: 200px;
+    color: black;
+    background-color: white;
+    border-radius: 23px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+   }
+   #page1img{
+    height: 300px;
+    padding-left: 150px;
+   }
+   @media screen and (max-width: 600px) {
+     #page1btn{
+       margin-left: 150px;
+     }
+     #page1img{
+      padding-left: 100px;
+     }
+     #container-fluid1{
+      height: 800px;
+     }
+
+   }
+   /*page2 css style */
+   #container2{
+    height:650px;
+   }
+   #page2cont{
+    margin-top:70px;
+   }
+   #page2img{
+    width: 450px;
+    height: 430px;
+    border-radius:4px;
+   }
+   #page2col2{
+    position: relative;
+    padding: 30px;
+    right: 160px;
+    top: 55px;
+    box-shadow: 3px 3px 10px 4px black;
+    border-radius: 4px;
+    background-color: whitesmoke;
+   }
+   @media  screen and (max-width:600px){
+     #page2img{
+      width: 424px;
+      margin-left: 6px;
+     }
+      #page2col2{
+        position: static;
+     }
+      #container2{
+        height: 950px;
+      }
+      #page2col2 h2{
+        padding-left: 110px;
+        font-weight: bold;
+      }
+
+   }
+   /*-----------------------page3-------------------------*/ 
+   #page3cont-flu{
+    background-image:url('image/img3.jpg'); 
+    background-size: cover;
+    height:350px;
+   }
+   #page3downcont{
+    background-color:white; 
+    height:300px
+   }
+   #page3cont h1{
+    color: white;
+    margin-top: 90px;
+   }
+    #page3cont #p{
+      color: white;
+    }
+   .box{
+    background-color:whitesmoke;
+    width: 190px;
+    height:110px;
+    margin-top:130px;
+    margin-left: 60px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px 5px #D4552F;
+    position: relative;
+   }
+   .box b{
+    color: #D4552F;
+    font-size:40px;
+    letter-spacing: 3px;
+    padding-left: 40px;
+    top: 15px;
+    position: absolute;
+   }
+   .box p{
+    color:black;
+    padding-top: 70px;
+    padding-left: 45px; 
+    font-size: 12px;
+    font-weight: bold;
+   }
+   #page3downcont h1{
+    margin-top: 150px;
+    margin-left: 450px;
+    font-style:italic;
+    font-size: 30px;
+    font-weight: bold;
+   }
+    #page3downcont p{
+    margin-left: 430px;
+   }
+   @media screen and (max-width: 600px) {
+     #page3cont h1{
+       font-size: 22px;
+     }
+     #page3downcont h1{
+      margin-top: 650px;
+      margin-left: 40px;
+     }
+     #page3cont p{
+      font-size: 12px;
+     }
+      #page3downcont p{
+      margin-left: 35px; 
+     }
+      .box{
+          margin-top:70px;
+          margin-left: 140px;
+          margin-right: 40px;
+      } 
+      #page3downcont{
+        height: 850px;
+      }
+      #page3cont-flu{
+        height: 300px;
+      }
+   }
+   /*....................................................page4..............................................*/
+   #page4cont{
+    height:650px
+   }
+   .page4box{
+    width: 250px;
+    height: 350px;
+    background-color: lightblue;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 5px 8px lightblue;
+   }
+   .page4box h6{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+   }
+   .page4box p{
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+   .page4box b{
+    padding-left: 75px;
+    font-size: 45px;
+   }
+   .page4box button{
+    margin-top: 50px;
+    margin-left: 75px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+   }
+   .page4box button:hover{
+    background-color: white;
+    color: black;
+   }
+   @media screen and (max-width: 600px)
+   {   #page4cont{
+        height: 1700px;
+       }
+       .page4box{
+        width: 400px;
+        height: 450px;
+        margin-left:45px;
+       }
+       .page4box p{
+        padding-top: 60px;
+       }
+       .page4box b{
+        padding-left: 140px;
+
+       }
+       .page4box button{
+        margin-left:150px;
+       }
+   }
+   /*.................................................page5...............................................*/
+   #pade5{
+    background:linear-gradient(to bottom,#FC4F74,#D4552F);
+    height:700px;
+   }
+   #page5cont h1{
+    margin-top: 120px;
+    color: white;
+   }
+
+   #page5cont p{
+    margin-top: 50px;
+    color: white;
+   }
+   #button1{
+    margin-top: 70px;
+    margin-left: 290px;
+    background-color:white;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+   }
+    #button2{
+    margin-top: 70px;
+    margin-left: 250px;
+    background-color:white;
+    color: black;
+    border: none;
+    border-radius: 35px;
+    padding: 15px;
+   }
+   #page5cont button i{
+    font-size: 25px;
+   }
+   @media screen and (max-width: 600px) {
+     #pade5{
+       height:900px;
+     }
+    #button1{
+        margin-left: 160px;
+    } 
+    #button2{
+        margin-left: 160px;
+    }  
+   }
+/*...........................................page6......................................................*/
+   #page6{
+    height:1000px
+   }
+
+   #page6 h1{
+        margin-top: 90px;
+   }
+   .carousel-inner{
+    margin-top: 100px;
+   }
+   @media screen  and (max-width: 600px) {
+     #page6{
+      height:700px;
+     }
+   }
+/*.........................................footer......................................................*/
+   #footer{
+    background-color:#FC4F74;
+   }
+   #footer .col-md-4{
+      margin-top: 100px;
+      padding: 20px;
+   }
+   #footer .col-md-4 span{
+    color:white;
+   }
+    #footer .col-md-4 h3{
+      color: white;
+    }
+    #footer .col-md-4 h3:hover, #footer .col-md-4 span:hover{
+      color:black;
+    }
+     #footer .col-md-4 input{
+      border: none;
+     }
+      #footer .col-md-4 i{
+        color: white;
+        padding-left: 15px;
+      }
+       #footer .col-md-4 i:hover{
+        color:black;
+       }
+  </style>
+  <body>
+    <div  class="container-fluid" id="container-fluid1">
+      <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+        <div class="container">
+        <div class="navbar-header" >
+          <div class="navbar-brand"><i class="fa-sharp fa-solid fa-book-open-reader"></i>&nbsp;<span>BOOKS</span></div>
+           <button class="navbar-toggle" data-toggle="collapse" data-target="#nav-items">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+         </button>
+       </div>
+       <div class="collapse navbar-collapse" id="nav-items">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#page1cont">Home</a></li>
+            <li><a href="#page2">course</a></li>
+            <li><a href="#page3cont-flu">price</a></li>
+            <li><a href="#page4cont">pages</a></li>
+            <li><a href="#pade5">fact</a></li>
+            <li><a href="#page6">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container" id="page1cont">
+      <div class="row" id="page1row">
+        <div class="col-md-6" id="col1">
+          <div class="text-center">AUTHOR:DAILY TUITION</div>
+          <h2 class="text-center">EXCITING ADVENTURE</h2>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, illo! Quod saepe eligendi, cupiditate velit!</p>
+          <button class="btn btn-primary" id="page1btn">By now for $5.99</button>
+        </div>
+        <div class="col-md-6" id="col2">
+         <img src="image/img7.png" id="page1img">
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--........................................................page2..............................-->
+<div class="container-fluid" id="page2">
+ <div class="container" id="container2">
+  <span ></span>
+  <div class="row" id="page2cont">
+    <div class="col-md-6" id="page2cont1" >
+      <img src="image/img1.jpg" id="page2img">
+    </div>
+    <div class="col-md-6" id="page2col2">
+      <h2>Hr.Devid smith</h2>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quas rerum eius est, veritatis maxime repellendus dolorum tenetur ratione atque nulla, illo? Voluptas magni voluptate quibusdam aperiam at corrupti eum debitis voluptatibus ipsum accusantium praesentium molestiae tenetur sint laboriosam officiis dolores ducimus eaque harum temporibus provident, a. Delectus illum voluptate iste optio, impedit, totam eaque et ipsum distinctio dolores nobis dicta. <br><br>Dolorem quaerat eius suscipit, assumenda cumque adipisci sunt quis quod odit nesciunt veritatis perspiciatis, praesentium illo.</p>
+    </div>
+  </div>
+ </div>
+</div>
+<!--.....................................................page3...............................-->
+<div class="container-fluid" id="page3cont-flu" >
+  <div class="container" id="page3cont">
+    <h1 class="text-center">SOME FEATURES THAT MADE US UNIQUE</h1>
+    <p class="text-center" id="p">Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Ab necessitatibus minima veniam.</p>
+    <div class="row">
+      <div class="box">
+        <b>2456</b>
+        <p class="p">Happy client</p>
+      </div>
+       <div class="box">
+         <b>2344</b>
+         <p class="p">cups coffee</p>
+       </div>
+       <div class="box">
+         <b>3412</b>
+         <p class="p">Tickets submitted</p>
+       </div>
+       <div class="box">
+         <b>2323</b>
+         <p class="p">Total project</p>
+       </div>
+  </div>
+ </div>
+</div>
+  <div class="container-fluid" id="page3downcont">
+       <h1>purchase whatever you want</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, non.</p>
+  </div>
+  <!--...........................................................page4..........................-->
+<div class="container" id="page4cont" >
+  <div class="page4box">
+    <h6>PDF</h6>
+    <p>Lorem ipsum dolor, sit amet  elit. Consequatur consequuntur iusto quisquam.</p><br>
+    <b>$77.3</b><br>
+    <button>purchace now</button>
+  </div>
+  <div class="page4box">
+    <h6>E-book</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ut, explicabo vel? iusto</p><br>
+    <b>$90.9</b><br>
+     <button>purchace now</button>
+  </div>
+  <div class="page4box">
+    <h6>print copy</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorum praesentium magni!</p><br>
+    <b>$83.2</b><br>
+     <button>purchace now</button>
+  </div>
+</div>
+<!--............................................................page5.............................................-->
+<div class="container-fluid" style="" id="pade5">
+  <div class="container" id="page5cont">
+    <h1 class="text-center">Download our App for all platform</h1>
+    <p class="text-center">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Atque temporibus neque, impedit debitis omnis similique facere corporis eaque iusto distinctio nostrum dolorem voluptatem quis voluptates, ut reprehenderit, perferendis. Debitis non voluptates, nisi iste impedit necessitatibus sequi voluptate voluptas excepturi, nulla tempora voluptatibus in modi? Consequatur aperiam eaque, accusantium consequuntur. Laudantium blanditiis odio, enim odit, recusandae voluptate nostrum nesciunt ex doloribus. Ullam cupiditate numquam esse veritatis mollitia velit expedita consectetur at. Et est doloremque, nisi a eaque qui rem dignissimos repudiandae repellendus eos quos sed repellat ab autem distinctio accusamus culpa neque fugit maxime placeat reiciendis mollitia facere quia quaerat.</p>
+    <button class="btn btn-primary" id="button1"><i class="fa-solid fa-desktop"></i> &nbsp;&nbsp;Desktop</button>
+    <button class="btn btn-primary" id="button2"><i class="fa-solid fa-mobile-screen"></i> &nbsp;&nbsp;On Moble</button>
+  </div>
+</div>
+<!--.........................................................page6........................................................-->
+<div class="container-fluid" id="page6">
+  <div class="container">
+    <h1 class="text-center">What our reader's say about us</h1>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, illum.</p>
+  </div>
+  <div class="container">
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+     <div class="item active" id="img1cau">
+        <img src="image/img2.jpg" alt="Los Angeles" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>LA is always so much fun!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="image/img2.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="image/img2.jpg" alt="New York" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+  
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+ <!--..........................................................footer............................................-->
+ <footer class="container-fluid" id="footer">
+   <div class="container">
+     <div class="row">
+      <div class="col-md-4">
+        <h3>About us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ea vero. Animi ipsam dicta nesciunt aut vero dignissimos harum sed!</p>
+        <br><br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, <span>adipisci!</span></p>
+      </div>
+       <div class="col-md-4">
+         <h3>Newsletter</h3>
+         <p>stay update</p>
+       <form accept="#" method="post">
+           <div class="form-group">
+             <label for="email">Email:</label>
+             <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+           </div>
+       </form>
+      </div>
+      <div class="col-md-4">
+        <h3>Follow us</h3>
+        <p>Lorem  sit amet.</p>
+        <div>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+     </div>
+   </div>
+ </footer>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>
